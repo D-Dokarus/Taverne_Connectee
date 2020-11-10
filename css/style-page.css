@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "Taverne";
+	src: url('../Font-Taverne.ttf');
+}
+
+section
+{
+	font-family: Taverne;
+	Height: 130%;
+	background: url(../images/Page/fond.jpg) repeat top;
+	background-size: 20%;
+	border-radius:10px 10px 10px 10px;
+	padding:0px 30px;
+}
+.date
+{
+	float:left;
+}
+.auteur
+{
+	float:right;
+}
+.texte
+{
+	clear:both;
+}
+.entete /*Image en haut des articles*/
+{
+	max-width:70vw;
+	max-height:36vh;
+	border:1px solid black;
+}
+.jaune /*Couleur des étoiles pour les notes*/
+{
+	color:rgb(239, 216, 9);
+}
+article, .commentaires
+{
+	padding:2vw 0vw;
+	background:rgba(200,200,200,0.9);
+	border-radius:10px 10px 10px 10px;
+}
+.card
+{
+	margin-bottom:1vw;
+}
+hr
+{
+	width:50%;
+}

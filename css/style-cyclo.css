@@ -1,0 +1,464 @@
+section
+{
+	background: url(../images/cyclo_image/fond2.png) repeat top;
+	background-size: 20%;
+	border-radius:10px 10px 10px 10px;
+}
+.section-sous-cyclo
+{
+	background: url(../images/cyclo_image/fond2.png) repeat top;
+	background-size: 20%;
+	border-radius:10px 10px 10px 10px;
+}
+.introduction h2
+{
+	font-family: Taverne;
+	font-size:4vw;
+	color: rgb(50,150,150);
+	text-decoration: underline;
+	text-shadow: 0.3vw 0.3vw 0.3vw #555;
+}
+.introduction
+{
+	padding-top: 5vw;
+	padding-left: 3vw;
+}
+.introduction p
+{
+	font-family: Taverne;
+	font-size:1vw;
+	margin-right: 10vw;
+	margin-top: 2vw;
+	color: rgb(150,50,150);
+	text-shadow: 0.1vw 0.1vw 0.1vw #555;
+}
+.d-block
+{
+	height:35vw;
+	border-radius:1vw 1vw 1vw 1vw;
+}
+.carousel-item p, .carousel-item h5
+{
+	color: black;
+	text-shadow: 0.1vw 0.1vw 0.1vw rgb(255,255,255);
+}
+.carousel-item h5
+{
+	font: bold 2vw arial;
+}
+
+.navcyclo ul .un a
+{
+	background-color: #F67734;
+}
+.navcyclo ul .deux a
+{
+	background-color: #4EC4EC;
+}
+.navcyclo ul .trois a
+{
+	background-color: #F198F8;
+}
+.navcyclo ul .quatre a
+{
+	background-color: #9BF75B;
+}
+.navcyclo ul li
+{
+	list-style: none;
+	width:11.5vw;
+	margin-left:5vw;
+}
+.liInfo ul li
+{
+	width: 38vw;
+	margin-top: 0.8vw;
+}
+.liInfo ul li a
+{
+	color: white;
+}
+.liInfo ul li:hover a
+{
+	width: 38vw;
+	font-size: 2vw;
+}
+.navcyclo ul .un:hover
+{
+	z-index: 1001;
+    transform: rotate3d(1,1,0,20deg);
+}
+.navcyclo ul .deux:hover
+{
+	z-index: 1001;
+    transform: rotate3d(1,1,0,20deg);
+}
+.navcyclo ul .trois:hover
+{
+	z-index: 1001;
+    transform: rotate3d(1,2,0,-20deg);
+}
+.navcyclo ul .quatre:hover
+{
+	z-index: 1001;
+    transform: rotate3d(1,2,0,-20deg);
+}
+.navcyclo ul .un:hover + .liInfo
+{
+	Background-color: orange;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .deux:hover + .liInfo
+{
+	Background-color: #6ad4ff;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .trois:hover + .liInfo
+{
+	Background-color: pink;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .quatre:hover + .liInfo
+{
+	Background-color: #8cff6a;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul > .liInfo
+{
+	width:65%;
+	margin-left:16.5vw;
+	background-color: rgb(200,200,200);
+	border-radius:0px 10px 10px 0px;
+}
+.navcyclo ul .liInfo_un:hover
+{
+	background-color: orange;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .liInfo_deux:hover
+{
+	background-color: #6ad4ff;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .liInfo_trois:hover
+{
+	background-color: pink;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .liInfo_quatre:hover
+{
+	background-color: #8cff6a;
+	border: 0.3vw solid black;
+	border-left:none;
+}
+.navcyclo ul .liInfo ul
+{
+	display:grid;
+	width:100%;
+	height:15vw;
+	font:bold 1.5vw Taverne;
+}
+.navcyclo ul
+{
+	padding:0;
+	margin:0;
+}
+.navcyclo > ul > li a
+{
+	display:grid;
+	float:left;
+	text-align:center;
+	width:100%;
+	height:15vw;
+	font:bold 1.5vw Taverne;
+	color:white;
+}
+.fa-home, .fa-wrench, .fa-user, .fa-dna
+{
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+}
+.image-cyclo
+{
+	width:100%;
+	height: 30vw;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+	width: 90%;
+}
+.table2
+{
+	width:60%
+}
+.table2 tr th
+{
+	font-size:4vw;
+}
+.table2 tr .table-sous-menu-1, .table2 tr .table-sous-menu-2, .table2 tr .table-sous-menu-3, .table2 tr .table-sous-menu-4, .table2 tr .table-sous-menu-5
+{
+	font-size:3.5vw
+}
+.table2 tr .table-élément-1,.table2 tr .table-élément-2, .table2 tr .table-élément-3, .table2 tr .table-élément-4, .table2 tr .table-élément-5
+{
+	font-size:2.5vw;
+}
+table:hover 
+{
+	transform: scale(1.01,1.05);
+}
+table tr 
+{
+	height: 3vw;
+}
+table tr td
+{
+	border: 2px solid black;
+}
+table tr td a, table tr th a
+{
+	display: block;
+	padding-top: 0.7vw;
+	padding-bottom: 0.7vw;
+}
+table tr td:hover, table tr th:hover
+{
+	transform: scale(1.01,1.05);
+	border: 2px solid black;
+}
+table tr td a:link, table tr th a:link, table tr td a:visited, table tr th a:visited
+{
+	color:black;
+}
+.table1 tr td
+{
+	width:20%
+}
+.table2 tr td
+{
+	width:20%
+}
+table tr th, table tr td
+{
+	text-align: center;
+	border: 2px solid black;
+	font-family: Taverne;
+}
+table tr th
+{
+	background-color: orange;
+	font-size: 2vw;
+	font-weight: 600;
+	border: 2px solid black;
+}
+table tr .table-sous-menu-1, table tr .table-sous-menu-2, table tr .table-sous-menu-3, table tr .table-sous-menu-4, table tr .table-sous-menu-5
+{
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+table tr .table-sous-menu-1
+{
+	background-color: #8BF3FE;
+}
+table tr .table-sous-menu-2
+{
+	background-color: #8EFE8B;
+}
+table tr .table-sous-menu-3
+{
+	background-color: #FBFE8B;
+}
+table tr .table-sous-menu-4
+{
+	background-color: #FEB08B;
+}
+table tr .table-sous-menu-5
+{
+	background-color: #AB8AFF;
+}
+table tr .table-élément-1,table tr .table-élément-2, table tr .table-élément-3, table tr .table-élément-4, table tr .table-élément-5
+{
+	font-size: 1vw;
+}
+table tr .table-élément-1
+{
+	background-color: #BEF9FF;
+}
+table tr .table-élément-2
+{
+	background-color: #C1FFBF;
+}
+table tr .table-élément-3
+{
+	background-color: #FDFFB3;
+}
+table tr .table-élément-4
+{
+	background-color: #FFD6C2;
+}
+table tr .table-élément-5
+{
+	background-color: #CCB8FF;
+}
+.image-partie
+{
+	width: 20vw;
+	height: 20vw;
+	float: right;
+}
+.cyclo-partie h2
+{
+	font-family: Taverne;
+	font-size:4vw;
+	text-decoration: underline;
+}
+.cyclo-partie h3
+{
+	font-family: Taverne;
+	font-size:3vw;
+}
+.cyclo-partie p
+{
+	font-family: Taverne;
+	font-size:1vw;
+}
+.cyclo-partie
+{
+	margin-left:2vw;
+}
+.Definition h2
+{
+	font-family: Taverne;
+	font-size:3vw;
+	color: black;
+	text-align:center;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Definition h3
+{
+	font-family: Taverne;
+	font-size:2vw;
+	color: #70afee;
+	background-color:black;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Definition p
+{
+	font-family: Taverne;
+	font-size:1vw;
+	color: #70afee;
+	margin-left:5px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgba(0,0,0,0.2);
+}
+.Definition
+{
+	background-color:white;
+	border-radius:0px 0px 10px 10px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Definition:hover, .Definition p:hover, .Definition h3:hover, .Definition h2:hover
+{
+	-webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) 
+{
+.introduction h2
+{
+	font-size:5vw;
+}
+.cyclo-partie h2
+{
+	font-size:7vw;
+}
+.cyclo-partie h3
+{
+	font-size:5vw;
+}
+.introduction p
+{
+	font-size:2vw;
+}
+.cyclo-partie p
+{
+	font-size:2vw;
+}
+.image-partie
+{
+	width:100%;
+	height: 75vw;
+}
+}
+@media (min-width: 481px)
+{
+.table2
+{
+	display: none;
+}
+}
+@media (max-width: 480px) 
+{
+.introduction h2
+{
+	font-size:6vw;
+}
+.cyclo-partie h2
+{
+	font-size:9vw;
+}
+.cyclo-partie h3
+{
+	font-size:7vw;
+}
+.introduction p
+{
+	font-size:3vw;
+}
+.cyclo-partie p
+{
+	font-size:3vw;
+}
+.navcyclo ul .liInfo ul
+{
+	font-weight:normal;
+}
+.table1
+{
+	display: none;
+}
+}
+

@@ -1,0 +1,194 @@
+section
+{
+	font-family: Taverne;
+}
+.card a
+{
+	color:black;
+}
+
+.Actualité,.Objet,.cyclo /*Les articles*/
+{
+	padding-bottom:10px;
+	padding-top:5px;
+}
+.Actualitée img,.Objet img,.cyclo img
+{
+	max-height:180px;
+	height:auto;
+}
+div.card-footer
+{
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.date
+{
+	float:left;
+	font-size:70%;
+	margin-left:0;
+}
+.plus
+{
+	float:right;
+	font-size:70%;
+}
+.plus img
+{
+	max-height:20px;
+	max-width:20px;
+}
+
+.Actualité .card-body
+{
+	border-top:5px solid Red;
+}
+.cyclo .card-body
+{
+	border-top:5px solid Aqua;
+}
+.Objet .card-body
+{
+	border-top:5px solid Orange;
+}
+
+.jaune
+{
+	color:rgb(239, 216, 9);
+}
+
+button#dropdownMenuButton.btn.dropdown-toggle /*Tri des article en haut*/
+{
+	background-color:rgba(0,0,0,0.85);
+	color:white;
+}
+
+ul li.page-item /*Pagination en bas*/
+{
+	background-color:white;
+}
+ul li.page-item#premier
+{
+	border-radius:3px 0 0 10px;
+}
+ul li.page-item#dernier
+{
+	border-radius:0 10px 3px 0;
+}
+ul li.page-item#premier a:hover
+{
+	border-radius:3px 0 0 10px;
+}
+ul li.page-item#dernier a:hover
+{
+	border-radius:0 10px 3px 0;
+}
+
+.Côté /*Card sur le côté*/
+{
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:0px;
+}
+.Côté img
+{
+	padding-top:10px;
+	max-width:140px;
+	max-height:80px;
+}
+hr
+{
+	width:50%;
+}
+
+.card
+{
+	max-width:400px;
+	min-height:100%;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.card:hover
+{
+	transform:scale(1.07);
+	box-shadow:1px 1px 20px rgba(0,0,0,0.5);
+	border:1px solid black;
+	border-radius:3px;
+}
+
+.card .card-img-top
+{
+	filter: blur(0px);
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    transform:scale(1);
+}
+
+
+.card:hover .card-img-top
+{
+	filter: blur(0);
+	transform:scale(1.1);
+}
+
+.card .card-img-top-2
+{
+	-webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    transform:scale(1);
+}
+
+
+.card:hover .card-img-top-2
+{
+	transform:scale(1.1);
+}
+.text-center
+{
+	overflow: hidden;
+    position: relative;
+}
+
+div .col-sm-8
+{
+	background-color:rgba(255,255,255,0.85);
+	border-radius:10px 0px 0px 10px;
+}
+div .col-sm-4
+{
+	background-color:rgba(100,100,100,0.85);
+	border-radius:0px 10px 10px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+	.card
+	{
+		margin:auto;
+	}
+	li#premier
+	{
+		margin-left:auto;
+	}
+	li#dernier
+	{
+		margin-right:auto;
+	}
+}
+
+@media screen and (max-width: 575px) {
+div .col-sm-8
+{
+	border-radius:10px 5px 0px 0px;
+}
+div .col-sm-4
+{
+	border-radius:0px 0px 10px 5px;
+}
+}

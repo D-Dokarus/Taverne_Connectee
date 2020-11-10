@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Taverne";
+	src: url('../Font-Taverne.ttf');
+}
+
+section
+{
+	height:130%;
+	background-size:150%;
+	border-radius:10px 10px 10px 10px;
+	padding:0px 30px;
+	font-family: Taverne;
+}
+form
+{
+	background:url(../images/Contact/fondform2.jpg) repeat;
+	border-radius:10px 10px 10px 10px;
+	padding:5vw 10vw;
+}
+.form-group label
+{
+	color:blue;
+}
+.legend {
+    background-color: #000;
+    color: white;
+    padding: 3px 6px;
+    border: 1px solid white;
+    font-size: 1vw;
+}
+.fieldset {
+	border: 1px solid white;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.fieldset:hover {
+	-webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+}
+label.form-check-label
+{
+	color: white;
+	letter-spacing :1px;
+}
+
+
+@media (max-width: 480px)  
+{
+	.legend {
+		font-size: 3vw;
+	}
+}

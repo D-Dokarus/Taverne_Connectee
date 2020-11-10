@@ -1,0 +1,460 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background:  url(../images/Fond.png) no-repeat top, url(../images/noir.jpg);
+    background-size: 100%;
+	position:relative;
+	line-height:0;
+}
+
+@font-face {
+	font-family: "Taverne";
+	src: url('../Font-Taverne.ttf');
+}
+.nav
+{
+    margin-bottom:10px;
+    padding:0;
+    width:100%;
+    border-radius:0px 0px 10px 10px;
+}
+.navbarre
+{
+	margin:0;
+    padding:0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.texte-menu
+{
+   padding:2.3vw 1.5vw 2vw 1.5vw;
+   font:bold 1vw/1vw Taverne;
+}
+
+.texte-menu:link, .texte-menu:visited 
+{
+   color:rgb(150,150,150);
+   float:left;
+   width:auto;
+   text-transform:uppercase;
+   text-shadow: 0.1vw 0.1vw 0.1vw #555;
+}
+
+.gauche .texte-menu:hover, .gauche .texte-menu:active
+{
+   color: rgb(255,255,255);
+   border-radius:0px 0px 0px 10px;
+   background: url(../images/Bouton-acceuil-gauche.png) no-repeat bottom ;
+   background-size: cover;
+}
+
+.droite .texte-menu:hover, .droite .texte-menu:active
+{
+   color: rgb(255,255,255);
+   border-radius:0px 0px 10px 0px;
+   background: url(../images/Bouton-acceuil-droite.png) no-repeat bottom ;
+   background-size: cover;
+}
+
+.centre-droite .texte-menu:hover, .centre-droite .texte-menu:active
+{
+   color: rgb(255,255,255);
+   background:rgba(100,100,100,0.3);
+   background: url(../images/Bouton-acceuil-centre-droite.png) no-repeat bottom;
+   background-size: cover;
+}
+
+.centre-gauche .texte-menu:hover, .centre-gauche .texte-menu:active
+{
+   color: rgb(255,255,255);
+   background:rgba(100,100,100,0.3);
+   background: url(../images/Bouton-acceuil-centre-droite.png) no-repeat bottom;
+   background-size: cover;
+}
+
+.image-navbar
+{
+	margin:0;
+    padding:0;
+    top:0;
+    left:37vw;
+	width: 25vw;
+	position: absolute;
+	border:none;
+	z-index: 1001;
+}
+
+footer
+{
+	position: relative;
+	width:100%;
+	left:0;
+	bottom:0;
+}
+
+.titre-sousmenu
+{
+	border-top:solid black;
+	margin:0;
+}
+.titre-sousmenu a
+{
+	font-family: Taverne;
+	font-size:2vw;
+	color:black;
+}
+.titre-sousmenu a:hover, .titre-sousmenu a:active
+{
+	color: #202020;
+}
+
+.titre-menu
+{
+	margin:0;
+	margin-top:4vw;
+	margin-bottom:1vw;
+}
+.titre-menu a
+{
+	font:bold 0.2vw/0.2vw Taverne;
+	font-size:2vw;
+	color:black;
+}
+.titre-menu a:hover, .titre-menu a:active
+{
+	color:#202020;
+}
+
+#menu li .drop 
+{
+	padding-right:2vw;
+	background:url("../images/drop.png") no-repeat right 2.8vw;
+}
+
+#menu li:hover .drop, #menu li:active .drop 
+{
+	color: rgb(255,255,255);
+	background: url("../images/drop.png") no-repeat right 3vw;
+}
+
+.dropdown_4columns 
+{
+	position:absolute;
+	z-index: 1000;
+	max-height:0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+	-moz-transition: 1.5s all .2s;
+	-webkit-transition: 1.5s all .2s;
+	transition: 1.5s all .2s;
+	margin:5vw auto;
+	width: 31.4vw;
+	margin-top:5.3vw;
+	text-align:left;
+	padding:0;
+	background:#0f0f0f;
+	background: -moz-linear-gradient(top, #05b1fc, #ce2abd);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#05b1fc), to(#ce2abd));
+	-moz-border-radius: 0px 0vw 1vw 1vw;
+	-webkit-border-radius: 0px 0vw 1vw 1vw;
+	border-radius: 0px 0vw 1vw 1vw;
+}
+
+#menu li:hover .dropdown_4columns, #menu li:active .dropdown_4columns 
+{
+	max-height:100vw;
+	border:0.1vw solid #777777;
+	border-top:none;
+}
+
+.col_1, .col_4 
+{
+	display:inline-block;
+	float: left;
+	position: relative;
+	margin:0;
+	padding:0;
+	margin-left: 3vw;
+	margin-right: 3.5vw;
+}
+
+.col_1 
+{
+	width:6vw;
+	margin-top:1vw;
+	height: 12vw;
+}
+
+.col_1_bas
+{
+	margin-bottom:2vw;
+}
+
+.col_4 
+{
+	width:20vw;
+}
+
+#menu .menu_right 
+{
+	float:right;
+	margin-right:0;
+}
+
+#menu li .align_right 
+{
+	-moz-border-radius: 5px 0px 5px 5px;
+	-webkit-border-radius: 5px 0px 5px 5px;
+	border-radius: 5px 0px 5px 5px;
+}
+#menu li ul 
+{
+	list-style:none;
+	padding:0;
+	margin:0 0 1vw 0;
+	max-height: 100vw;
+}
+#menu li ul li
+{
+	position:relative;
+	padding:0;
+	margin:0;
+	float:none;	
+	text-align:left;
+	width:15vw;	
+	height:2vw;	
+}
+#menu li ul li a
+{
+	font-family: Taverne;
+	font-size:1.2vw;
+	color:yellow;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+#menu li ul li:hover a, #menu li ul li:active a
+{
+	font-size:1vw;
+	color:orange;
+	text-shadow: 0.6px 0.6px 0.6px black;
+}
+#menu li ul li:hover, #menu li ul li:active
+{
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+#scroll_haut { 
+  position: fixed; 
+  width: 7vw; 
+  height: 7vw; 
+  bottom: 20px; 
+  right: 1px;
+  z-index: 1002;
+} 
+#scroll_haut img { 
+  width: 7vw; 
+}
+.anime
+{
+	animation: pinte 4s;
+}
+
+#cible
+{
+	width: 6vw;
+	left: 55vw;
+	top: 0.5vw;
+}
+.block {
+	position: relative;
+	margin: 300px auto 0;
+	width: 7vw;
+	height: 7vw;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	-webkit-animation:steam 20s linear infinite;
+	-moz-animation:steam 20s linear infinite;
+	-o-animation:steam 20s linear infinite;
+	-ms-animation:steam 20s linear infinite;
+	animation:steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(100px);
+}
+
+@keyframes pinte
+{
+	0%  {width: 6vw; left: 55vw; top:0.5; transform: rotate(0deg)}
+	5%  {width: 5vw; left: 54vw; top:1vw; transform: rotate(15deg)}
+	10% {width: 5vw; left: 54vw; top:1vw; transform: rotate(15deg)}
+	15% {width: 7vw; left: 56vw; top:0vw; transform: rotate(-15deg)}
+	25% {width: 6vw; left: 56vw; top:0vw; transform: rotate(-15deg)}
+	50%{width: 6vw; left: 55vw; top:0.5vw; transform: rotate(0deg)}
+}
+.defileParent {
+	display: none;
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+
+
+
+
+
+
+@media (max-width: 1000px) 
+{
+.col_1, .col_4 
+{
+	display:table;
+}
+#menu li ul li a
+{
+	font-size:1.6vw;
+}
+#menu li ul li, #menu li ul li:hover
+{
+	margin-bottom:3vw;
+}
+#menu li ul li:hover a, #menu li ul li:active a
+{
+	font-size:1.3vw;
+	color:orange;
+	text-shadow: 0.6px 0.6px 0.6px black;
+}
+#menu li:hover .dropdown_4columns, #menu li:active .dropdown_4columns 
+{
+	max-height:200vw;
+	border:0.1vw solid #777777;
+	border-top:none;
+}
+.texte-menu
+{
+   font:bold 1.5vw/1.5vw Taverne;
+}
+#scroll_haut { 
+  position: fixed; 
+  width: 10vw; 
+  height: 10vw; 
+  bottom: 20px; 
+  right: -1px;
+  z-index: 1002;
+} 
+#scroll_haut img { 
+  width: 10vw; 
+}
+}
+
+@media (max-width: 480px) 
+{
+.image-navbar, #cible
+{
+	width: 0;
+}
+.image-collapse
+{
+	width:35vw;
+}
+.texte-collapse
+{
+	padding: 2.3vw 1.5vw 2vw 1.5vw;
+	font: bold 5vw/5vw Taverne;
+	color: rgb(150,150,150);
+}
+.texte-collapse:hover
+{
+	padding: 2.3vw 1.5vw 2vw 1.5vw;
+	font: bold 6vw/6vw Taverne;
+	color: rgb(255,255,255);
+}
+.titre-collapse
+{
+	font: bold 8vw/8vw Taverne;
+	color: rgb(255,255,255);
+	margin:0;
+}
+.collapse-menu
+{
+   list-style: none;
+   padding-left: 0;
+}
+#navbarre
+{
+	display: none;
+}
+#navbar-collapse
+{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#scroll_haut { 
+  position: fixed; 
+  width: 15vw; 
+  height: 15vw; 
+  bottom: 20px; 
+  right: -2px;
+  z-index: 1002;
+} 
+#scroll_haut img { 
+  width: 15vw; 
+}
+}
+@media (min-width: 481px) 
+{
+.pos-f-t
+{
+	display: none;
+}
+.image-collapse
+{
+	width:0;
+}
+}

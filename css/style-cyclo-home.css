@@ -1,0 +1,97 @@
+section
+{
+	background: url(../images/cyclo_image/fond2.png) repeat top;
+	background-size: 20%;
+	border-radius:10px 10px 10px 10px;
+	font-family: Taverne;
+	padding-left:2vw;
+	padding-right:2vw;
+}
+.introduction
+{
+	padding-top:4vw;
+	padding-bottom:1vw;
+	text-align:center;
+}
+.content h2
+{
+	padding-top:3.5vw;
+}
+h5
+{
+	padding-top:2vw;
+	text-decoration: underline;
+}
+nav.sommaire
+{
+	width:50%;
+}
+nav.sommaire
+{
+	background-color:white;
+	border:1px solid black;
+	border-radius:1px;
+}
+nav.sommaire h1
+{
+	text-align:center;
+}
+
+.fa-home, .fa-wrench, .fa-user, .fa-dna
+{
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+}
+.sommaire ol
+{
+	counter-reset: item;
+}
+.sommaire li
+{
+	display:block;
+}
+.sommaire li:before
+{
+	content: counters(item, ".") " ";
+	counter-increment: item;
+}
+.breadcrumb
+{
+	margin-left: -2vw;
+	margin-right: -2vw;
+	padding-left: 5vw;
+	font-family: Arial;
+}
+.image_cyclo_home
+{
+	width: 40%;
+	float: right;
+}
+.rouge
+{
+	color: #bf0202;
+	text-shadow: 0 0 4px #000000;
+}
+article
+{
+	background-color: rgba(255,255,255,0.5);
+	border-radius:0px 10px 10px 10px;
+}
+
+
+
+
+@media (max-width:700px) 
+{
+	nav.sommaire
+	{
+		width:100%;
+	}
+	.image_cyclo_home
+	{
+		width: 100%;
+		float: none;
+	}
+}
+
